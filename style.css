@@ -1,32 +1,55 @@
 body {
-  font-family: "Patrick Hand", cursive;
-  font-weight: 400;
-  font-size: 21px;
-  text-align: center;
-  color: #ffffff;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
-    url("https://cdn.pixabay.com/photo/2014/10/30/19/21/angola-509598_960_720.jpg");
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  padding: 3rem;
-  margin: 0;
-  line-height: 1.6;
+font-family: "Patrick Hand", cursive;
+background-image:
+linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+url("https://cdn.pixabay.com/photo/2014/10/30/19/21/angola-509598_960_720.jpg");
+
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+
+color: #f4e6d4;
+
+margin: 0;
+padding: 2rem;
+
+text-align: center;
+line-height: 1.7;
 }
 
-h1,
-h2,
-h3 {
-  color: #caa7f0; /* Softer pastel purple */
-  margin-bottom: 0.5rem;
+header {
+margin-bottom: 3rem;
 }
 
 h1 {
-  font-size: 2rem; /* Slightly smaller title */
-  opacity: 0.9; /* Makes it more subtle */
+font-size: 3rem;
+color: #ddb892;
 }
 
-p {
-  max-width: 600px;
-  margin: 0 auto 1.5rem;
+.subtitle {
+font-size: 1.3rem;
+color: #e6ccb2;
+}
+
+section {
+max-width: 800px;
+margin: 2rem auto;
+padding: 1.5rem;
+
+background-color: rgba(0, 0, 0, 0.45);
+
+border-left: 4px solid #bc6c25;
+border-radius: 10px;
+}
+
+h2 {
+color: #ddb892;
+}
+
+.project-card {
+margin-top: 1.5rem;
+}
+
+h3 {
+color: #ffd6a5;
 }
